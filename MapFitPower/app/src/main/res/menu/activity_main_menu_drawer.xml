@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <item android:title="Activité">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                        android:id="@+id/activity_main"
+                        android:title="Commencer une activité" />
+
+                <item
+                        android:id="@+id/activity_gestion_activites"
+                        android:title="Gestion des activités" />
+
+                <item
+                        android:id="@+id/activity_historique"
+                        android:title="Historique des activités" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Gestion des données">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/activity_stat"
+                    android:title="Statistique" />
+
+                <item
+                    android:id="@+id/activity_profil"
+                    android:title="Profil" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
